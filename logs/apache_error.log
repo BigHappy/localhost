@@ -1,0 +1,44 @@
+[Sun Mar 05 01:03:46 2017] [notice] Digest: generating secret for digest authentication ...
+[Sun Mar 05 01:03:46 2017] [notice] Digest: done
+[Sun Mar 05 01:03:46 2017] [notice] FastCGI: process manager initialized (pid 27115)
+[Sun Mar 05 01:03:46 2017] [notice] Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.1.1 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 configured -- resuming normal operations
+[Sun Mar 05 01:03:53 2017] [error] [client ::1] File does not exist: /Applications/MAMP/htdocs/docs-assets, referer: http://localhost:8888/MAMP/?language=Japanese
+[Sun Mar 05 01:29:06 2017] [notice] caught SIGTERM, shutting down
+[Sun Mar 05 01:29:08 2017] [notice] Digest: generating secret for digest authentication ...
+[Sun Mar 05 01:29:08 2017] [notice] Digest: done
+[Sun Mar 05 01:29:08 2017] [notice] FastCGI: process manager initialized (pid 28412)
+[Sun Mar 05 01:29:08 2017] [notice] Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.15 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 configured -- resuming normal operations
+[Tue Mar 07 10:20:42 2017] [notice] caught SIGTERM, shutting down
+[Wed Mar 08 00:32:27 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Mar 08 00:32:27 2017] [notice] Digest: done
+[Wed Mar 08 00:32:27 2017] [notice] FastCGI: process manager initialized (pid 61331)
+[Wed Mar 08 00:32:27 2017] [notice] Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.15 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 configured -- resuming normal operations
+[Thu Mar 09 14:22:00 2017] [notice] caught SIGTERM, shutting down
+[Fri Mar 10 02:43:43 2017] [notice] Digest: generating secret for digest authentication ...
+[Fri Mar 10 02:43:43 2017] [notice] Digest: done
+[Fri Mar 10 02:43:43 2017] [notice] FastCGI: process manager initialized (pid 91600)
+[Fri Mar 10 02:43:43 2017] [notice] Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.15 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 configured -- resuming normal operations
+[Sun Mar 19 14:01:12 2017] [notice] caught SIGTERM, shutting down
+[Sun Mar 19 14:20:31 2017] [notice] Digest: generating secret for digest authentication ...
+[Sun Mar 19 14:20:31 2017] [notice] Digest: done
+[Sun Mar 19 14:20:31 2017] [notice] FastCGI: process manager initialized (pid 2963)
+[Sun Mar 19 14:20:31 2017] [notice] Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.15 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 configured -- resuming normal operations
+[Sun Mar 19 15:20:55 2017] [notice] caught SIGTERM, shutting down
+[Sun Mar 19 15:23:38 2017] [notice] Digest: generating secret for digest authentication ...
+[Sun Mar 19 15:23:38 2017] [notice] Digest: done
+[Sun Mar 19 15:23:38 2017] [notice] FastCGI: process manager initialized (pid 797)
+[Sun Mar 19 15:23:38 2017] [notice] Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.15 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 configured -- resuming normal operations
+[Mon Mar 20 14:01:06 2017] [notice] caught SIGTERM, shutting down
+[Wed Mar 22 01:27:07 2017] [notice] Digest: generating secret for digest authentication ...
+[Wed Mar 22 01:27:07 2017] [notice] Digest: done
+[Wed Mar 22 01:27:07 2017] [notice] FastCGI: process manager initialized (pid 33920)
+[Wed Mar 22 01:27:07 2017] [notice] Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.15 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 configured -- resuming normal operations
+[Thu Mar 23 19:15:33 2017] [notice] Digest: generating secret for digest authentication ...
+[Thu Mar 23 19:15:33 2017] [notice] Digest: done
+[Thu Mar 23 19:15:33 2017] [notice] FastCGI: process manager initialized (pid 688)
+[Thu Mar 23 19:15:33 2017] [notice] Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.15 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 configured -- resuming normal operations
+[Fri Mar 24 22:01:01 2017] [notice] caught SIGTERM, shutting down
+[Fri Mar 24 22:01:11 2017] [notice] Digest: generating secret for digest authentication ...
+[Fri Mar 24 22:01:11 2017] [notice] Digest: done
+[Fri Mar 24 22:01:11 2017] [notice] FastCGI: process manager initialized (pid 51954)
+[Fri Mar 24 22:01:11 2017] [notice] Apache/2.2.31 (Unix) mod_wsgi/3.5 Python/2.7.13 PHP/7.0.15 mod_ssl/2.2.31 OpenSSL/1.0.2j DAV/2 mod_fastcgi/2.4.6 mod_perl/2.0.9 Perl/v5.24.0 configured -- resuming normal operations

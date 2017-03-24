@@ -1,0 +1,14 @@
+[04-Mar-2017 17:28:46 Europe/Berlin] PHP Fatal error:  Uncaught Error: [] operator not supported for strings in /Applications/MAMP/bin/phpLiteAdmin/phpliteadmin.php:572
+Stack trace:
+#0 /Applications/MAMP/bin/phpLiteAdmin/phpliteadmin.php(719): dir_tree('/Applications/M...')
+#1 {main}
+  thrown in /Applications/MAMP/bin/phpLiteAdmin/phpliteadmin.php on line 572
+[04-Mar-2017 16:34:33 UTC] WordPress データベースエラー: Unknown column 'wp_' in 'field list' for query SELECT wp_
+[10-Mar-2017 22:32:22 UTC] PHP Parse error:  syntax error, unexpected 'fa' (T_STRING), expecting ',' or ')' in /Applications/MAMP/htdocs/wp-content/themes/circlesquare/single.php on line 93
+[19-Mar-2017 01:01:20 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Applications/MAMP/htdocs/wp-content/themes/circlesquare/each_exrpt_post.php on line 3
+[19-Mar-2017 01:01:23 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Applications/MAMP/htdocs/wp-content/themes/circlesquare/each_exrpt_post.php on line 3
+[19-Mar-2017 01:01:24 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /Applications/MAMP/htdocs/wp-content/themes/circlesquare/each_exrpt_post.php on line 3
+[19-Mar-2017 01:03:21 UTC] PHP Parse error:  syntax error, unexpected ';' in /Applications/MAMP/htdocs/wp-content/themes/circlesquare/each_exrpt_post.php on line 3
+[19-Mar-2017 01:03:23 UTC] PHP Parse error:  syntax error, unexpected ';' in /Applications/MAMP/htdocs/wp-content/themes/circlesquare/each_exrpt_post.php on line 3
+[19-Mar-2017 01:03:36 UTC] PHP Parse error:  syntax error, unexpected ';' in /Applications/MAMP/htdocs/wp-content/themes/circlesquare/each_exrpt_post.php on line 10
+[19-Mar-2017 01:03:38 UTC] PHP Parse error:  syntax error, unexpected ';' in /Applications/MAMP/htdocs/wp-content/themes/circlesquare/each_exrpt_post.php on line 10

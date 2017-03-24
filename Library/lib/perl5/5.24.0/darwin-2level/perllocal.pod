@@ -1,0 +1,220 @@
+=head2 Mon Jan 23 14:09:56 2017: C<Module> L<Mac::SystemDirectory|Mac::SystemDirectory>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/site_perl/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Jan 23 14:09:56 2017: C<Module> L<File::Which|File::Which>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/site_perl/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.21>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Jan 23 14:09:57 2017: C<Module> L<File::HomeDir|File::HomeDir>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/site_perl/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.00>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Jan 23 14:10:06 2017: C<Module> L<CPAN|CPAN>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.14>
+
+=item *
+
+C<EXE_FILES: scripts/cpan scripts/cpan-mirrors>
+
+=back
+
+=head2 Mon Jan 23 14:10:10 2017: C<Module> L<Cache::Memcached::Fast|Cache::Memcached::Fast>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/site_perl/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.23>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Jan 23 14:10:21 2017: C<Module> L<nginx|nginx>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/site_perl/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.11.4>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Jan 23 14:12:10 2017: C<Module> L<DBI|DBI>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/site_perl/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.633>
+
+=item *
+
+C<EXE_FILES: dbiproxy dbiprof dbilogstrip>
+
+=back
+
+=head2 Mon Jan 23 14:12:13 2017: C<Module> L<DBD::mysql|DBD::mysql>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/site_perl/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 4.031>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Jan 23 14:12:57 2017: C<Module> L<mod_perl2|mod_perl2>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/site_perl/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.0.9>
+
+=item *
+
+C<EXE_FILES: bin/mp2bug>
+
+=back
+
+=head2 Mon Jan 23 14:47:45 2017: C<Module> L<Image::Magick|Image::Magick>
+
+=over 4
+
+=item *
+
+C<installed into: /Applications/MAMP/Library/lib/perl5/site_perl/5.24.0>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.96>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

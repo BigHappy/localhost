@@ -1,0 +1,470 @@
+170322 01:27:06 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170322 01:27:06 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-22 01:27:06 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-22 01:27:06 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-22 01:27:06 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 33917 ...
+2017-03-22 01:27:06 33917 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-22 01:27:06 33917 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-22 01:27:06 33917 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-22 01:27:06 33917 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-22 01:27:06 33917 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-22 01:27:06 33917 [Note] InnoDB: Memory barrier is not used
+2017-03-22 01:27:06 33917 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-22 01:27:06 33917 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-22 01:27:06 33917 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-22 01:27:06 33917 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-22 01:27:06 33917 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-22 01:27:07 33917 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-03-22 01:27:07 33917 [Note] InnoDB: Waiting for purge to start
+2017-03-22 01:27:07 33917 [Note] InnoDB: 5.6.35 started; log sequence number 6412703
+2017-03-22 01:27:07 33917 [Note] RSA private key file not found: /Applications/MAMP/db/mysql56//private_key.pem. Some authentication plugins will not work.
+2017-03-22 01:27:07 33917 [Note] RSA public key file not found: /Applications/MAMP/db/mysql56//public_key.pem. Some authentication plugins will not work.
+2017-03-22 01:27:07 33917 [Note] Server hostname (bind-address): '*'; port: 8889
+2017-03-22 01:27:07 33917 [Note] IPv6 is available.
+2017-03-22 01:27:07 33917 [Note]   - '::' resolves to '::';
+2017-03-22 01:27:07 33917 [Note] Server socket created on IP: '::'.
+2017-03-22 01:27:07 33917 [Note] Event Scheduler: Loaded 0 events
+2017-03-22 01:27:07 33917 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
+Version: '5.6.35'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 8889  MySQL Community Server (GPL)
+2017-03-22 01:27:12 33917 [Warning] InnoDB: Cannot open table mysql/innodb_index_stats from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-22 01:27:12 33917 [Warning] InnoDB: Cannot open table mysql/innodb_table_stats from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-22 01:27:12 33917 [Warning] InnoDB: Cannot open table mysql/slave_master_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-22 01:27:12 33917 [Warning] InnoDB: Cannot open table mysql/slave_relay_log_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-22 01:27:12 33917 [Warning] InnoDB: Cannot open table mysql/slave_worker_info from the internal data dictionary of InnoDB though the .frm file for the table exists. See http://dev.mysql.com/doc/refman/5.6/en/innodb-troubleshooting.html for how you can resolve the problem.
+2017-03-22 01:27:14 700000a3f000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:14 700000a3f000 InnoDB: Error: Fetch of persistent statistics requested for table "wp-01"."wp_options" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-22 01:27:15 700000a83000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:15 700000a83000 InnoDB: Error: Fetch of persistent statistics requested for table "wp-01"."wp_usermeta" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Fetch of persistent statistics requested for table "wp-01"."wp_posts" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Fetch of persistent statistics requested for table "wp-01"."wp_terms" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Fetch of persistent statistics requested for table "wp-01"."wp_term_taxonomy" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Fetch of persistent statistics requested for table "wp-01"."wp_term_relationships" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Fetch of persistent statistics requested for table "wp-01"."wp_postmeta" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:16 700000a3f000 InnoDB: Error: Fetch of persistent statistics requested for table "wp-01"."wp_users" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-22 01:27:23 700000a83000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:23 700000a83000 InnoDB: Error: Fetch of persistent statistics requested for table "wp-01"."wp_commentmeta" but the required system tables mysql.innodb_table_stats and mysql.innodb_index_stats are not present or have unexpected structure. Using transient stats instead.
+2017-03-22 01:27:30 700000934000 InnoDB: Error: Table "mysql"."innodb_table_stats" not found.
+2017-03-22 01:27:30 700000934000 InnoDB: Recalculation of persistent statistics requested for table "wp-01"."wp_options" but the required persistent statistics storage is not present or is corrupted. Using transient stats instead.
+170323 19:15:32 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170323 19:15:32 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-23 19:15:33 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-23 19:15:33 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-23 19:15:33 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 685 ...
+2017-03-23 19:15:33 685 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-23 19:15:33 685 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-23 19:15:33 685 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-23 19:15:33 685 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-23 19:15:33 685 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-23 19:15:33 685 [Note] InnoDB: Memory barrier is not used
+2017-03-23 19:15:33 685 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-23 19:15:33 685 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-23 19:15:33 685 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-23 19:15:33 685 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-23 19:15:33 685 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-23 19:15:33 685 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-23 19:15:33 685 [Note] InnoDB: Database was not shutdown normally!
+2017-03-23 19:15:33 685 [Note] InnoDB: Starting crash recovery.
+2017-03-23 19:15:33 685 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-23 19:15:33 685 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-23 19:15:33 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170323 19:15:33 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 21:58:03 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 21:58:04 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 21:58:04 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 21:58:04 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 21:58:04 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 49594 ...
+2017-03-24 21:58:04 49594 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-24 21:58:04 49594 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 21:58:04 49594 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 21:58:04 49594 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 21:58:04 49594 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 21:58:04 49594 [Note] InnoDB: Memory barrier is not used
+2017-03-24 21:58:04 49594 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 21:58:04 49594 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 21:58:04 49594 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 21:58:04 49594 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 21:58:04 49594 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 21:58:04 49594 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 21:58:04 49594 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 21:58:04 49594 [Note] InnoDB: Starting crash recovery.
+2017-03-24 21:58:04 49594 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 21:58:04 49594 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 21:58:04 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 21:58:04 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 21:58:15 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 21:58:15 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 21:58:15 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 21:58:15 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 21:58:15 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 49826 ...
+2017-03-24 21:58:15 49826 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-24 21:58:15 49826 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 21:58:15 49826 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 21:58:15 49826 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 21:58:15 49826 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 21:58:15 49826 [Note] InnoDB: Memory barrier is not used
+2017-03-24 21:58:15 49826 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 21:58:15 49826 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 21:58:15 49826 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 21:58:15 49826 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 21:58:15 49826 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 21:58:15 49826 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 21:58:15 49826 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 21:58:15 49826 [Note] InnoDB: Starting crash recovery.
+2017-03-24 21:58:15 49826 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 21:58:15 49826 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 21:58:15 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 21:58:15 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 21:58:32 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 21:58:32 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 21:58:32 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 21:58:32 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 21:58:32 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 50120 ...
+2017-03-24 21:58:32 50120 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-24 21:58:32 50120 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 21:58:32 50120 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 21:58:32 50120 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 21:58:32 50120 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 21:58:32 50120 [Note] InnoDB: Memory barrier is not used
+2017-03-24 21:58:32 50120 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 21:58:32 50120 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 21:58:32 50120 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 21:58:32 50120 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 21:58:32 50120 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 21:58:32 50120 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 21:58:32 50120 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 21:58:32 50120 [Note] InnoDB: Starting crash recovery.
+2017-03-24 21:58:32 50120 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 21:58:32 50120 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 21:58:32 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 21:58:33 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 22:01:10 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 22:01:10 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 22:01:11 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 22:01:11 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 22:01:11 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 51951 ...
+2017-03-24 22:01:11 51951 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-24 22:01:11 51951 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 22:01:11 51951 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 22:01:11 51951 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 22:01:11 51951 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 22:01:11 51951 [Note] InnoDB: Memory barrier is not used
+2017-03-24 22:01:11 51951 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 22:01:11 51951 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 22:01:11 51951 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 22:01:11 51951 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 22:01:11 51951 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 22:01:11 51951 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 22:01:11 51951 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 22:01:11 51951 [Note] InnoDB: Starting crash recovery.
+2017-03-24 22:01:11 51951 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 22:01:11 51951 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 22:01:11 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 22:01:11 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 22:08:36 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 22:08:36 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 22:08:37 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 22:08:37 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 22:08:37 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 53813 ...
+2017-03-24 22:08:37 53813 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-24 22:08:37 53813 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 22:08:37 53813 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 22:08:37 53813 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 22:08:37 53813 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 22:08:37 53813 [Note] InnoDB: Memory barrier is not used
+2017-03-24 22:08:37 53813 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 22:08:37 53813 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 22:08:37 53813 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 22:08:37 53813 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 22:08:37 53813 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 22:08:37 53813 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 22:08:37 53813 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 22:08:37 53813 [Note] InnoDB: Starting crash recovery.
+2017-03-24 22:08:37 53813 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 22:08:37 53813 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 22:08:37 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 22:08:37 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 22:16:05 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 22:16:05 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 22:16:05 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 22:16:05 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 22:16:05 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 55986 ...
+2017-03-24 22:16:05 55986 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-24 22:16:05 55986 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 22:16:05 55986 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 22:16:05 55986 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 22:16:05 55986 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 22:16:05 55986 [Note] InnoDB: Memory barrier is not used
+2017-03-24 22:16:05 55986 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 22:16:05 55986 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 22:16:05 55986 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 22:16:05 55986 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 22:16:05 55986 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 22:16:05 55986 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 22:16:05 55986 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 22:16:05 55986 [Note] InnoDB: Starting crash recovery.
+2017-03-24 22:16:05 55986 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 22:16:05 55986 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 22:16:05 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 22:16:05 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 22:32:24 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 22:32:24 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 22:32:25 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 22:32:25 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 22:32:25 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 62603 ...
+2017-03-24 22:32:25 62603 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-24 22:32:25 62603 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 22:32:25 62603 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 22:32:25 62603 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 22:32:25 62603 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 22:32:25 62603 [Note] InnoDB: Memory barrier is not used
+2017-03-24 22:32:25 62603 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 22:32:25 62603 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 22:32:25 62603 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 22:32:25 62603 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 22:32:25 62603 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 22:32:25 62603 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 22:32:25 62603 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 22:32:25 62603 [Note] InnoDB: Starting crash recovery.
+2017-03-24 22:32:25 62603 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 22:32:25 62603 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 22:32:25 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 22:32:25 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 22:34:18 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 22:34:18 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 22:34:18 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 22:34:18 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 22:34:18 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 63622 ...
+2017-03-24 22:34:18 63622 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 22:34:18 63622 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 22:34:18 63622 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 22:34:18 63622 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 22:34:18 63622 [Note] InnoDB: Memory barrier is not used
+2017-03-24 22:34:18 63622 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 22:34:18 63622 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 22:34:18 63622 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 22:34:18 63622 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 22:34:18 63622 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 22:34:18 63622 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 22:34:18 63622 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 22:34:18 63622 [Note] InnoDB: Starting crash recovery.
+2017-03-24 22:34:18 63622 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 22:34:18 63622 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 22:34:18 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 22:34:18 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 22:35:41 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 22:35:41 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 22:35:42 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 22:35:42 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 22:35:42 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 64608 ...
+2017-03-24 22:35:42 64608 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-24 22:35:42 64608 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 22:35:42 64608 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 22:35:42 64608 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 22:35:42 64608 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 22:35:42 64608 [Note] InnoDB: Memory barrier is not used
+2017-03-24 22:35:42 64608 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 22:35:42 64608 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 22:35:42 64608 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 22:35:42 64608 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 22:35:42 64608 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 22:35:42 64608 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 22:35:42 64608 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 22:35:42 64608 [Note] InnoDB: Starting crash recovery.
+2017-03-24 22:35:42 64608 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 22:35:42 64608 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 22:35:42 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 22:35:42 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
+170324 22:36:06 mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error_log.err'.
+170324 22:36:06 mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql56
+2017-03-24 22:36:06 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-03-24 22:36:06 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-03-24 22:36:06 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.6.35) starting as process 64966 ...
+2017-03-24 22:36:06 64966 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql56/ is case insensitive
+2017-03-24 22:36:06 64966 [Note] Plugin 'FEDERATED' is disabled.
+2017-03-24 22:36:06 64966 [Note] InnoDB: Using atomics to ref count buffer pool pages
+2017-03-24 22:36:06 64966 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-03-24 22:36:06 64966 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2017-03-24 22:36:06 64966 [Note] InnoDB: Memory barrier is not used
+2017-03-24 22:36:06 64966 [Note] InnoDB: Compressed tables use zlib 1.2.8
+2017-03-24 22:36:06 64966 [Note] InnoDB: Using CPU crc32 instructions
+2017-03-24 22:36:06 64966 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-03-24 22:36:06 64966 [Note] InnoDB: Completed initialization of buffer pool
+2017-03-24 22:36:06 64966 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-03-24 22:36:06 64966 [Note] InnoDB: The log sequence numbers 6412703 and 6412703 in ibdata files do not match the log sequence number 6521170 in the ib_logfiles!
+2017-03-24 22:36:06 64966 [Note] InnoDB: Database was not shutdown normally!
+2017-03-24 22:36:06 64966 [Note] InnoDB: Starting crash recovery.
+2017-03-24 22:36:06 64966 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-03-24 22:36:06 64966 [ERROR] InnoDB: Attempted to open a previously opened tablespace. Previous tablespace mysql/slave_worker_info uses space ID: 5 at filepath: ./mysql/slave_worker_info.ibd. Cannot open tablespace wp@002d01/wp_term_taxonomy which uses space ID: 5 at filepath: ./wp@002d01/wp_term_taxonomy.ibd
+2017-03-24 22:36:06 7fff76242000  InnoDB: Operating system error number 2 in a file operation.
+InnoDB: The error means the system cannot find the path specified.
+InnoDB: If you are installing InnoDB, remember that you must create
+InnoDB: directories yourself, InnoDB does not create them.
+InnoDB: Error: could not open single-table tablespace file ./wp@002d01/wp_term_taxonomy.ibd
+InnoDB: We do not continue the crash recovery, because the table may become
+InnoDB: corrupt if we cannot apply the log records in the InnoDB log to it.
+InnoDB: To fix the problem and start mysqld:
+InnoDB: 1) If there is a permission problem in the file and mysqld cannot
+InnoDB: open the file, you should modify the permissions.
+InnoDB: 2) If the table is not needed, or you can restore it from a backup,
+InnoDB: then you can remove the .ibd file, and InnoDB will do a normal
+InnoDB: crash recovery and ignore that table.
+InnoDB: 3) If the file system or the disk is broken, and you cannot remove
+InnoDB: the .ibd file, you can set innodb_force_recovery > 0 in my.cnf
+InnoDB: and force InnoDB to continue crash recovery here.
+170324 22:36:06 mysqld_safe mysqld from pid file /Applications/MAMP/tmp/mysql/mysql.pid ended
